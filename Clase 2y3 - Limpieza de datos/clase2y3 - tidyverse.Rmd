@@ -860,7 +860,7 @@ class: inverse, middle
 
 # Práctica Grupal
 
-- A partir de la base de la EPH, crear un objeto nuevo que **contenga** las variables __AGLOMERADO__ y __CH06__ y **filtar** por aquella población que tenga _18 o más años de edad_ y que resida en los aglomerados de _Neuquén_ o _Río Negro_
+- A partir de la base de la EPH, crear un objeto nuevo que **contenga** las variables __AGLOMERADO__ y __CH06__ y **filtrar** por aquella población que tenga _18 o más años de edad_ y que resida en los aglomerados de _Neuquén_ o _Río Negro_
 
 - Chequear que las operaciones hayan sido un éxito (_pista: funciones como **unique()**, **table()** o **colnames()** pueden ser de ayuda)_
 
