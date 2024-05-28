@@ -67,7 +67,7 @@ output:
 <br><br> 
 
 
-#### **f.** Dado el siguiente código, agregar a la base una columna que contenga el peso relativo de la población de cada provincia respecto al total:
+#### **f.** Dado el siguiente código, agregar a la base una columna que contenga el peso relativo de cantidad de inmuebles por provincia respecto al total:
 
 ```r
 library(tidyverse)
@@ -75,7 +75,7 @@ library(tidyverse)
 base_3_provincias <- base_inmuebles %>% 
   filter(provincia %in% c("Cordoba", "Buenos Aires")) %>% 
   group_by(situacion_inmueble) %>% 
-  summarise(cantidad_personas = n())
+  summarise(cantidad_inmuebles = n())
 ```
 
 <br><br> 
