@@ -536,7 +536,7 @@ saveRDS(object = objeto_resultados,file = "Resultados/base_nueva.RDS")
 
 - Prueben correr las funciones unique() y duplicated() sobre el resultado anterior. Luego, en caso de haber, eliminen los registros duplicados 
 
-- Observen los valores que toma la variable `COMUNAS` en el listado que presenta el archivo **Comunas.xlsx**.Creen  una nueva columna llamada "localidad" que les sirva para unir la informacion con la de la base de los inmuebles 
+- Observen los valores que toma la variable `COMUNAS` en el listado que presenta el archivo **Comunas.xlsx**.Creen  una nueva columna llamada "departamento" que les sirva para unir la informacion con la de la base de los inmuebles 
 
 - Usen la función left_join() para incorporar a la base de inmuebles la informacion de los barrios que tiene cada comuna
 
